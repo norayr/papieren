@@ -1,0 +1,3 @@
+[submodule "resume-pandoc"]
+	path = resume-pandoc
+	url = https://github.com/jacoby/resume-pandoc
