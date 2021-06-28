@@ -115,7 +115,7 @@ Since contemporary systems are overly complicated, I keep my personal systems si
 
 Back to the story, that was a time when I got access to the Internet, discovered different technologies, and started reading research papers. I wish I got Internet earlier, it would help to start understanding earlier w h a t  i s  s c i e n c e  a b o u t.
 
-Later I realized that early programs I have been written in that "season" could be described as systems programming:  that software layer end-user doesn't interact with. I also love to design tools, that other people may use to program. Back then I wrote code generators, my Unix shell, dependency resolving package manager.
+Later I realized that programs I have been written in that time frame could be described as systems programming:  that software layer end-user doesn't interact with. I also love to design tools, that other people may use to program. Back then I wrote code generators, my Unix shell, dependency resolving package manager.
 
 Some people perceive me as a 'Unix guy'. However, I believe that's not the case. I think today we know more about operating systems design, but backward compatibility keeps us back. I love to point out the signs of an old design in Unix, Windows, and macOS, and to tell about new approaches in research operating systems: Oberon family systems, Plan9, Inferno.
 
