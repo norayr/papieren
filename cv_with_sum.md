@@ -28,7 +28,7 @@ right-column:
 ## ISTC
 2020; instructor, Security Engineering course.
 
-## Armenian Code Academy
+## ACA
 2019; instructor, introduction to Linux for non-IT students.
 
 ## Vishap Oberon Compiler
