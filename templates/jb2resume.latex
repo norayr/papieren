@@ -17,6 +17,17 @@
 \usepackage[$if(fontenc)$$fontenc$$else$T1$endif$]{fontenc}
 \usepackage[utf8]{inputenc}
 
+% this is for calculation of my age
+\usepackage{ifthen}
+\newcounter{myage}
+\setcounter{myage}{\the\year}
+\addtocounter{myage}{-1977}
+\ifthenelse{\the\month<11}{\addtocounter{myage}{-1}}{}
+\ifthenelse{\the\month=11}{
+  \ifthenelse{\the\day < 23}{\addtocounter{myage}{-1}}{}
+}{}
+
+
 \def\name{$name$}
 
 % The following metadata will show up in the PDF properties
