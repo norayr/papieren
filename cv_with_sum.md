@@ -97,7 +97,7 @@ Probably that's because I was directed into the area since childhood, was extrem
 
 Though we had a shortage of books and magazines about computers in Soviet Armenia, and I had no one to ask questions, that was also a great learning experience: I learnt to be patient, I learnt to think for days, and stare at code for weeks, try things for months, I learnt that I'll inevitably understand what I want to, it just takes time.
 
-Later I found out it doesn't work exactly like that in life, human societies, and relationships: I almost gave up the struggle to understand what is happening around me.
+Later I found out it doesn't work exactly like that in life, human societies, and relationships: I am still struggling to understand what is happening around.
 
 To give the reader more context, back then I even learnt to read (and sometimes understand) the compiled machine code in hexadecimal representation, edit it, hack games, and gain immortality. That also doesn't work exactly like that in life, right? Or maybe no?
 
