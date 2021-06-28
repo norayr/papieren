@@ -137,11 +137,11 @@ I often suggest thinking more before adding a feature - once you add it, it's ve
 
 Did the reader wonder why "computers" work so "slowly" and "unreliably"? That's one of the reasons why.
 
-The other advantage of minimalism is understandable design. I do like to look 'under the hood' and make sense of others' thoughts. That's not an easy task for people much smarter than me, even when the software is simple. Alas, some software layers humans built are not only impossible to understand for other humans, but even merely to use.
+The other advantage of minimalism is understandable design. I do like to look 'under the hood' and make sense of others' thoughts. That's not an easy task even for people much smarter than me, even when the software is simple. Alas, some software layers humans built are not only impossible to understand for other humans, but even to use.
 
-I believe it is better to search for simple solutions for complicated problems. For sure, I would not encourage the opposite: finding complex solutions when the simpler would suffice. The latter happens more often than necessary. (:
+I believe it is better to search for simple solutions for complicated problems. For sure, I would not encourage the opposite: finding complex solutions when the simpler would suffice.
 
-Bad design solutions lead to software that is easier to compromise. One of my major interests is techniques to increase software safety and security.
+Such design solutions lead to software that is easier to compromise. One of my major interests is techniques to increase software safety and security.
 
 The approaches I described above would not be celebrated in industry work, where the goal is often to add more features, be fast and early on the market.
 
