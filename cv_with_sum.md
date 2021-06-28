@@ -150,7 +150,9 @@ I advocate decentralized communication, I believe that the Internet is more than
 I am obsessed with programming language design. I do believe the language we write in impacts the way we think. Expressing thoughts in a well-designed programming language helps to prevent software failures, hard-to-find errors, security flaws, and vulnerabilities. Using well-designed language teaches programmers the discipline they may benefit from, even when they have to work with not-so-well-designed programming languages.
 
 My favourite programming languages are Oberon, Modula-3, Go.
+
 I value Ada, Spark, Pascal(Extended, ISO standard), Swift, Rust, Forth, Erlang, Haskell, Lisp, Scala, Lua.
+
 I would also say I value C and Objective C, but with a clause: they were created by brilliant computing pioneers when we were not aware of better design principles, and they still carry our past.
 
 The past has a tendency to haunt us and keep us back.
