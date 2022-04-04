@@ -23,7 +23,7 @@ right-column:
 # Work experiences
 
 ## AUA
-2017-; adjunct lecturer. Taught 'Operating systems' and 'Compiler Design' courses.
+2017-; adjunct lecturer. 'Operating systems', 'Compiler Design', 'Computer Organization' courses.
 
 ## ISTC
 2020; instructor, Security Engineering course.
@@ -33,6 +33,7 @@ right-column:
 
 ## Vishap Oberon Compiler
 2012-; founder and developer of [voc](https://github.com/vishaps/voc)
+       lead development of vipack package manager.
 
 ## barcamp.am
 2010-; member of barcampevn organizing committee.
@@ -53,7 +54,7 @@ right-column:
 
 * Participated in web search software development (it was running on fireball.de, paperball.de, lycos.eu) and port from TRU64 to GNU+Linux.
 * Prepared standard of development environment.
-* Hacking & patching software, including Apache web server and Spread messaging server.
+* Patching software, including Apache web server and Spread messaging server.
 * Maintaining debian apt archive mirror.
 * Managed environment with more than 80 servers.
 * Many research works.
@@ -82,7 +83,6 @@ right-column:
 * Quick reconstruction of networks.
 * Security audit of web software.
 
-## other
-In late 90ies/early 2000s  I also worked as creative director at TV companies(Ar, Noyan Tapan), directed and edited commercials, music clips, short films, etc.
-
+## personality
+curious, creative. love sharing knowledge and learning.
 
