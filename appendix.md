@@ -35,7 +35,7 @@ voc has [tests](https://github.com/vishaps/voc/tree/master/src/test/) directory.
 
 there is my forking server, sound generation example, vt100 module, and [games](https://github.com/vishaps/voc/tree/master/src/test/x11) ported from classical oberon system via x11 wrapper.
 
-click [here](http://norayr.am/oberon/voc/test.png) to see how tetris port looks.
+click [here](http://norayr.am/oberon/voc/test.png) to see how tetris port looks. ([original archived blog post](https://web.archive.org/web/20170515222247/http://oberon.vishap.am/169-2/))
 
 [here](http://norayr.am/oberon/voc/gtk.png) to see how gtk app looks, which is written in oberon.
 
