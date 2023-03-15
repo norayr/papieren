@@ -6,6 +6,12 @@ compiler related
 =========
 
 i was interested in compilers already long ago, let's say [this](https://sourceforge.net/projects/nmos6502-oo2c/files/) is my port of oo2c oberon compiler to nmos6502 cpu based platforms, published in 2007.
+[it](https://github.com/norayr/nmos6502-oo2c) is customized to generate 6502 code by using cc65.
+
+* avr oberon-07
+[this](https://github.com/norayr/oberon-07_avr_oo2c) is a port of oberon-07 compiler for avr which was running under A2 operating system to Linux or Windows host system by using oo2c compiler.
+
+more serious:
 
 * o7c, x86 backend, done during 200{7,8} work at ETHZ:
 
@@ -18,7 +24,6 @@ i also prepared a minimal runtime library for it, and some tests.
 [this](https://github.com/norayr/o7c/blob/master/tests/hello/Unix.mod) illustrates how i used kernel calls directly, bypassing libc.
 
 [this](https://github.com/norayr/o7c/tree/master/tests/hellolibc) illustrates how i used libc for the same purpose.
-
 
 * vishap oberon
 
@@ -38,8 +43,6 @@ there is my forking server, sound generation example, vt100 module, and [games](
 click [here](http://norayr.am/oberon/voc/test.png) to see how tetris port looks. ([original archived blog post](https://web.archive.org/web/20170515222247/http://oberon.vishap.am/169-2/))
 
 [here](http://norayr.am/oberon/voc/gtk.png) to see how gtk app looks, which is written in oberon.
-
-
 
 [vipack](https://github.com/vishaps/vipack)
 
@@ -140,7 +143,7 @@ this is [the commit](https://github.com/maemo-leste/hildon-input-method/commit/5
 
 brought extra keyboards (mentioned [here](https://maemo-leste.github.io/maemo-leste-thirteenth-update-april-may-june-2020.html) to the project from the other, outdated project, this is the [pull request](https://github.com/maemo-leste/hildon-input-method-plugins/pull/2) - this is nothing serious, but required skills to build the debian packages, edit makefiles, to make sure the new keyboards are registered in gconf and can be loaded via ui.
 
-i also have a mobile linux application in maemo repos: [photolightmeter](https://github.com/maemo-leste-extras/photolightmeter) - it calculates aperture and shutter settings for old manual film cameras.
+i also have a mobile linux application in maemo repos: [photolightmeter](https://github.com/maemo-leste-extras/photolightmeter) - it calculates aperture and shutter settings for old manual film cameras. initially written for [n900](https://www.my-maemo.com/software/applications_name_Photographic_Light_Meter_faq_36_fldAuto_2240.html)
 
 the only interesting part there is that [i get](https://github.com/maemo-leste-extras/photolightmeter/blob/c707d055b76bcf56c2e1ea1a60575abb50548bed/lux.pas#L71) amount of light in lux by finding and analyzing driver files right in /sys directory.
 
@@ -190,7 +193,44 @@ other maemo revivals:
 * [maefat](https://github.com/maemo-leste-extras/maefat)
 * [msid](https://github.com/maemo-leste-extras/msid)
 
+phosh
+=====
+
+* squeekboard [patch](https://gitlab.gnome.org/World/Phosh/squeekboard/-/merge_requests/478#note_1297259) for armenian layouts.
+
+suckless
+========
+svkbd [armenian layout](https://git.suckless.org/svkbd/commit/c247720ae49d166686ae23a7b9bd0e1dfb3b446b.html)
+
+svkbd [dvorak layout](https://git.suckless.org/svkbd/commit/7fc78a0b445a1af10c7931bdf5d0f316605fa289.html)
+
 my papers collection
 ====================
 
 collection of papers interesting to me [here](http://norayr.am/papers/). keep nearby to find quickly.
+
+translations of floss
+=====================
+
+i was a gnome armenian translations coordinator since 2005, but worked actively only for several years.
+
+* [some mailing list proof](https://mail.gnome.org/archives/membership-committee/2005-September/msg00031.html)
+
+* windowmaker translator.
+
+* mandrake linux specific translations.
+
+some public talks
+============
+
+(all in armenian)
+
+systems we love armenia, dvorak? always has been: [https://youtu.be/9KI1bqz6S1Y](https://youtu.be/9KI1bqz6S1Y)
+
+barcamp.am 2019 - everybody lies: OS, compiler, CPU. [https://www.youtube.com/watch?v=TpZvnkyMv6I](https://www.youtube.com/watch?v=TpZvnkyMv6I)
+
+barcamp.am 2019 - modules [https://www.youtube.com/watch?v=ZFDdW_ClaLo](https://www.youtube.com/watch?v=ZFDdW_ClaLo)
+
+barcamp.am 2014 - vishap oberon [https://www.youtube.com/watch?v=ZiKWZySzKrM](https://www.youtube.com/watch?v=ZiKWZySzKrM)
+
+systems we love armenia, It's Pascal! I know it!: [https://www.youtube.com/watch?v=qN6n5c7h730](https://www.youtube.com/watch?v=qN6n5c7h730)

@@ -42,6 +42,8 @@ right-column:
 2009-; IT engineer
 
 * Solving problems, consulting developers in areas of systems programming, Unix, distributed computations, maintain and develop Synopsys Armenia and Synopsys/SEUA educational department IT infrastructure, including but not limited with: computational grids(UGE), On Demand Computing (openstack), storage system clusters, monitoring, DNS, CUPS, NIS, dhcp, etc services. Administering a network of more than 500 servers.
+* Built custom kernels and software for Engineering teams and Educational departments.
+* Set up two Educational departments infrastructure: in Yerevan and Gyumri Synopsys Educational Centers, including Kickstart, NIS, DNS, DHCP, autofs, NFS. Wrote a web interface for the management to administer NIS accounts. Supported maintainance of educational departments in RAU and European universities.
 * Have been a research supervisor at Synopsys/SEUA educational department for several years.
 
 ## ETH Zurich
@@ -82,6 +84,9 @@ right-column:
 * Aironet radio modems.
 * Quick reconstruction of networks.
 * Security audit of web software.
+
+## other
+In late 90ies/early 2000s  I also worked as creative director at TV companies(Ar, Noyan Tapan), directed and edited commercials, music clips, short films, etc.
 
 ## personality
 curious, creative. love sharing knowledge and learning.
