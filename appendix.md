@@ -155,6 +155,11 @@ i have published `android` port of the same program, compiled with delphi commun
 
 the difference is how do i get the ambient light sensor information, this time by just [using a delphi class](https://github.com/norayr/photolightmeter/blob/ad36dabfa598d7badd6f98333af0cbcf2fc3ea86/lux.pas#L190).
 
+illuria security
+================
+
+[manush](https://github.com/illuria/manush) (menu shell) that gets configuration from JSON file and draws menu. One of the options can be the other JSON file, and then manush will call manush. And correctly exit to parent manush.
+
 maemo-leste ports & maintainership
 ==================================
 
