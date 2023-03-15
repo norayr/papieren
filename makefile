@@ -15,3 +15,6 @@ syllabus_os:
 
 syllabus_co:
 	pandoc syllabus_co.md -o syllabus_co.pdf
+
+syllabus_cd:
+	pandoc syllabus_cd.md -o syllabus_co.pdf
