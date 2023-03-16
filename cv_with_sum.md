@@ -36,7 +36,7 @@ right-column:
        lead development of vipack package manager.
 
 ## barcamp.am
-2010-; member of barcampevn organizing committee.
+2010-2019; member of barcampevn organizing committee.
 
 ## Synopsys Armenia
 2009-; IT engineer
