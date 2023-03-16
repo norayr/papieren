@@ -94,6 +94,10 @@ on [getting values out of array index range](https://github.com/compilers2019/no
 
 and [this](https://github.com/norayr/troublespots) is a small forgotten repo about c++.
 
+illuria security
+================
+
+[manush](https://github.com/illuria/manush) (menu shell) that gets configuration from JSON file and draws menu. One of the options can be the other JSON file, and then manush will call manush. And correctly exit to parent manush.
 
 other
 ====
@@ -128,7 +132,7 @@ it did not build on my aarch64 pinebook, so i patched the ebuild:
 
 i also provided [this patch](https://gitlab.com/freepascal.org/fpc/documentation/-/issues/21107) in 2010.
 
-
+python4delphi [commit](https://github.com/pyscripter/python4delphi/pull/413/commits/8a726f56c4dcdf6f8b9ca2a33b6544b36d3dca69) that fixes crossplatform/Lazarus builds.
 
 maemo-leste
 ===========
@@ -154,11 +158,6 @@ i have published `android` port of the same program, compiled with delphi commun
 [source code branch on github](https://github.com/norayr/photolightmeter/tree/android)
 
 the difference is how do i get the ambient light sensor information, this time by just [using a delphi class](https://github.com/norayr/photolightmeter/blob/ad36dabfa598d7badd6f98333af0cbcf2fc3ea86/lux.pas#L190).
-
-illuria security
-================
-
-[manush](https://github.com/illuria/manush) (menu shell) that gets configuration from JSON file and draws menu. One of the options can be the other JSON file, and then manush will call manush. And correctly exit to parent manush.
 
 maemo-leste ports & maintainership
 ==================================
