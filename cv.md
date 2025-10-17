@@ -1,6 +1,6 @@
 ---
 name: Norayr Chilingarian
-keywords: programming languages, translation techniques, lexical analysis, syntax analysis, code generation, ebnf, syntax notation, context-free grammar, recourcsive descent parser, top-down parser, modular programming languages, module, safe programming, secure programming, machine code, operating systems design, dynamic module loading, linking, dynamic linking, oop, kernel, micro-kernel operating systems, oberon, oberon-2, native oberon, vishap oberon compiler, voc, active oberon, active objects, a2, aos, bluebottle, minix, plan9, inferno, threads, tasks, component systems, inter-process communication, package management, dependency resolution. 
+keywords: programming languages, translation techniques, lexical analysis, syntax analysis, code generation, ebnf, syntax notation, context-free grammar, recourcsive descent parser, top-down parser, modular programming languages, module, safe programming, secure programming, machine code, operating systems design, dynamic module loading, linking, dynamic linking, oop, kernel, micro-kernel operating systems, oberon, oberon-2, native oberon, vishap oberon compiler, voc, active oberon, active objects, a2, aos, bluebottle, minix, plan9, inferno, threads, tasks, component systems, inter-process communication, package management, dependency resolution.
 left-column:
 - 'programming languages'
 - 'compiler construction'
@@ -11,35 +11,37 @@ right-column:
 - 'xmpp:  [norayr@spyurk.am](mailto:norayr@arnet.am)'
 - 'web: [https://norayr.am/](https://norayr.am/)'
 - 'gemini: [gemini://norayr.am/](gemini://norayr.am/)'
-- 'ssb:   @Y4+9YYlGp6rS2f7c1Phz7b+cpcQ8Ar9bTxN206Dem5o=.ed25519'
 - 'github: [https://github.com/norayr/](https://github.com/norayr/)'
 - 'age:  \themyage{} '
-- 'this document was compiled: \today'
+- 'this document was compiled with pandoc at \today'
 ...
 
-# Education
-1994-1998; State Engineering University of Armenia
+# Work experiences in education
 
-# Work experiences
+## American University of Armenia
+2017-; adjunct lecturer. 'Operating systems', 'Compiler Design', 'Computer Organization', 'Network Programming' courses.
 
-## AUA
-2017-; adjunct lecturer. 'Operating systems', 'Compiler Design', 'Computer Organization' courses.
+# in industry
 
-## ISTC
-2020; instructor, Security Engineering course.
+disclaimer: industry experience is not always what characterizes me. links section of this document tells more about me.
 
-## ACA
-2019; instructor, introduction to Linux for non-IT students.
+## Tactun
 
-## Vishap Oberon Compiler
-2012-; founder and developer of [voc](https://github.com/vishaps/voc)
-       lead development of vipack package manager.
+* Low lever work on kernel and u-boot for a specific board from enclustra.com.
+* Made the board bootable from internal QSPI device on a newer version of Petalinux.
+* Reading serial from eeprom in U-Boot, passing to kernel, exposing in /proc.
+* Making fpga available and rewritable from userspace.
+* Integrating package manager.
 
-## barcamp.am
-2010-2019; member of barcampevn organizing committee.
+## Illuria Security
+2022-; Systems Engineer
+
+* Wrote some software in a secure, type and memory safe language in order to avoid memory/type related errors, by using my own compiler. highlight: [manush shell on yahoo finance](https://finance.yahoo.com/news/tevano-wholly-owned-subsidiary-illuria-090000467.html)
+* Administered freebsd servers.
+* Worked on illuria security solutions.
 
 ## Synopsys Armenia
-2009-; IT engineer
+2009-2023; IT engineer
 
 * Solving problems, consulting developers in areas of systems programming, Unix, distributed computations, maintain and develop Synopsys Armenia and Synopsys/SEUA educational department IT infrastructure, including but not limited with: computational grids(UGE), On Demand Computing (openstack), storage system clusters, monitoring, DNS, CUPS, NIS, dhcp, etc services. Administering a network of more than 500 servers.
 * Built custom kernels and software for Engineering teams and Educational departments.
@@ -85,9 +87,17 @@ right-column:
 * Quick reconstruction of networks.
 * Security audit of web software.
 
+# Free software
+## Vishap Oberon Compiler
+2012-; founder and developer of [voc](https://github.com/vishapoberon/compiler).
+       lead development of vipack package manager.
+
+## many other projects on github.
+ some links in the appendix
 ## other
-In late 90ies/early 2000s  I also worked as creative director at TV companies(Ar, Noyan Tapan), directed and edited commercials, music clips, short films, etc.
+## barcamp.am unconference
+2010-2019; member of barcampevn organizing committee.
 
 ## personality
-curious, creative. love sharing knowledge and learning.
+open, creative, tinkerer. love sharing knowledge and learning what is interesting to me.
 

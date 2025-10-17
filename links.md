@@ -28,7 +28,7 @@ i also prepared a minimal runtime library for it, and some tests.
 * vishap oberon
 
 
-[vishap oberon organization](https://github.com/vishapoberon/) github page.
+[vishap organization](https://github.com/vishapoberon/) github page.
 
 [voc](https://github.com/vishapoberon/compiler).
 
@@ -44,13 +44,16 @@ click [here](http://norayr.am/oberon/voc/test.png) to see how tetris port looks.
 
 [here](http://norayr.am/oberon/voc/gtk.png) to see how gtk app looks, which is written in oberon.
 
-[vipack](https://github.com/vishapoberon/vipack)
+[vipack](https://github.com/vishapoberon/vipack) package manager.
+it is able to recoursively calculate dependencies, and download those via git or http or https.
 
 [click](https://camo.githubusercontent.com/bf681582db235fe2a06e1fc6affe05e4dc87ae00735b11a978bfbdeff6b327c7/68747470733a2f2f786e2d2d7939617a6573773662752e786e2d2d7939613361712f6d656469612f75706c6f6164732f323032322f30312f31392f34623635306162342d326539372d343566382d386664332d6166316337323633393963302e706e67) for the screenshot.
 
 started as a [student project](http://norayr.am/papers/Thesis_Ruben_Khachatryan_CIS_2019.pdf) i revised.
 
 later i implemented recoursive dependency resolver, the graph is on the screenshot by the link.
+
+i have also enhanced the project with [oberon http library](https://github.com/norayr/http), [mbedtls wrapper for https](https://github.com/norayr/mbedtls), [base64 module](https://github.com/norayr/base64), and ported [md5 module](https://github.com/vishapoberon/compiler/blob/master/src/library/s3/ethMD5.Mod) from oberon system.
 
 [vpicl](https://github.com/vishapoberon/vpicl)
 
@@ -67,57 +70,14 @@ chromatika is an android app which will apply carefully and scientifically gener
 
 chromatika is written from scratch in Pascal and is crossplatform. It can be compiled for android and ios.
 
+[chromatika on google play](https://play.google.com/store/apps/details?id=am.norayr.chromatika)
+
 [chromatika presentation](https://norayr.am/pr/chromatika/chromatika.pdf)
 
 [chromatika apk file](https://norayr.am/tmp/chromatika.apk)
 
 [chromatika source code](https://github.com/chromatika/chromatika)
 
-
-teaching
-========
-
-i keep notes with source code in public repositories on github.
-
-notes for every year differ, but these are the examples:
-
-[computer organization 2021 notes](https://github.com/comporg21/notes)
-
-[compiler design 2019 notes](https://github.com/compilers2019/notes)
-
-[operating systems 2017 notes](https://github.com/osdevnet/BBS/tree/master/notes)
-[network programming 2025 notes](https://github.com/networks2025/BBS/tree/main)
-
-in order to explain students some networking concepts i have been written
-
-* [vpn server and client](https://github.com/norayr/xoxovpn)
-* [RSA library](https://github.com/norayr/rsa)
-
-also already had other network related projects in my repositories.
-
-repositories contain many references to troublespots and loopholes in language design.
-
-i feel a need to explain why we need type checks [across module boundaries](https://github.com/comporg21/notes/tree/master/make/c) (modules existed since late 70ies, added to c++ standard in 2020).
-
-[this video](https://outcast.am/w/5MZquU8m5EhGs7dcm2g9sB) illustrates the issues. also available [here](https://toobnix.org/w/pvXmf72qNiqxDfpqGMRgmp).
-
-why c# namespaces [don't solve](https://github.com/compilers2019/notes/tree/master/5/namespace) the problems c has.
-
-on [fortran](https://github.com/compilers2019/notes/blob/master/5/note) problem.
-
-on floating point accuracy problems [here](https://github.com/comporg21/notes/blob/master/currency_bcd/notes). also [this](https://github.com/comporg21/notes/blob/master/currency_bcd/imtec-92-26.pdf) pdf.
-
-on arrays vs linked lists performance [here](https://github.com/comporg21/notes/tree/master/arrays_linked_lists)
-
-on [endianness](https://github.com/comporg21/notes/tree/master/endianness) problems, like when typcasting.
-
-on [buffer overflows](https://github.com/comporg21/notes/tree/master/stack/gets)
-
-on [how by changing one byte in memory make function exit not to caller but to different location](https://github.com/comporg21/notes/tree/master/stack/stack_smashing/2)
-
-on [getting values out of array index range](https://github.com/compilers2019/notes/blob/master/5/arr.c) which caused heartbleed bug in openssl library.
-
-and [this](https://github.com/norayr/troublespots) is a small forgotten repo about c++.
 
 
 other
@@ -134,6 +94,8 @@ for this program i had to also write two dependencies:
 * [xattr module](https://github.com/norayr/xattr) - currently linux specific wrapper to xattr interface.
 * [unix file system](https://github.com/norayr/unixFileSystem/) - works on every unix, not onli linux.
 
+
+
 irc
 ===
 
@@ -144,6 +106,11 @@ then  [irc protocol](https://github.com/norayr/irc/) implementation,
 
 i also used other libraries or wrappers written by me, like [lists](https://github.com/norayr/lists) library for linked lists, [opts](https://github.com/norayr/opts) to parse commandline arguments, or very simple [unix time](https://github.com/norayr/lists/tree/4fec82f839b088e8cf6b640816b61ba8a2129c69) wrapper.
 
+photography related
+===================
+* above mentioned [photolightmeter](https://github.com/maemo-leste-extras/photolightmeter)
+
+* [chromatika](https://github.com/chromatika/chromatika)
 
 xmpp
 ====
@@ -159,11 +126,17 @@ first gif at that page shows how i approach synopsys building.
 freepascal
 ==========
 
+bug fix in 2010, originally reported on their mantis, trace is on [freepascal gitlab](https://gitlab.com/freepascal.org/fpc/source/-/issues/18239) — longi should be smalli in interbase.pp file.
+
 it did not build on my aarch64 pinebook, so i patched the ebuild:
 [link](https://gentoobrowse.randomdan.homeip.net/packages/dev-lang/fpc) and other [link](https://bugs.gentoo.org/817899)
 
 i also provided [this patch](https://gitlab.com/freepascal.org/fpc/documentation/-/issues/21107) in 2010.
 
+reported:
+[this issue](https://gitlab.com/freepascal.org/fpc/source/-/issues/25715) — getaddrinfo,freeaddrinfo, getaddrinfoex, getaddrinfow, gai_strerror and corresponding error codes and structures are missing in WinSock2 unit.
+
+[this issue](https://gitlab.com/freepascal.org/fpc/source/-/issues/25714) — error codes of function getaddrinfo in cnetdb.pp unit do not correspond to the /usr/include/netdb.h header file.
 
 
 maemo-leste
@@ -191,8 +164,6 @@ i have published `android` port of the same program, compiled with delphi commun
 
 the difference is how do i get the ambient light sensor information, this time by just [using a delphi class](https://github.com/norayr/photolightmeter/blob/ad36dabfa598d7badd6f98333af0cbcf2fc3ea86/lux.pas#L190).
 
-
-
 maemo-leste ports & maintainership
 ==================================
 
@@ -204,7 +175,6 @@ my apps:
 
 it is in maemo leste repos. i use it every day.
 [this is the blog post](https://norayr.am/weblog/2024/07/15/24165919/) in which i present it.
-
 
 I have enriched maemo-leste repositories by the following projects, which I mostly revived and brought to back to life, and sometimes ported/packaged (see git histories).
 
@@ -256,6 +226,12 @@ svkbd [armenian layout](https://git.suckless.org/svkbd/commit/c247720ae49d166686
 
 svkbd [dvorak layout](https://git.suckless.org/svkbd/commit/7fc78a0b445a1af10c7931bdf5d0f316605fa289.html)
 
+my gentoo overlay
+=================
+
+[norayr-overlay](https://github.com/norayr/norayr-overlay) — lots of useful software packaged here, including lagrange gemini browser, got (game of trees), etc.
+
+
 my papers collection
 ====================
 
@@ -271,18 +247,3 @@ i was a gnome armenian translations coordinator since 2005, but worked actively 
 * windowmaker translator.
 
 * mandrake linux specific translations.
-
-some public talks
-============
-
-(all in armenian)
-
-systems we love armenia, dvorak? always has been: [https://youtu.be/9KI1bqz6S1Y](https://youtu.be/9KI1bqz6S1Y)
-
-barcamp.am 2019 - everybody lies: OS, compiler, CPU. [https://www.youtube.com/watch?v=TpZvnkyMv6I](https://www.youtube.com/watch?v=TpZvnkyMv6I)
-
-barcamp.am 2019 - modules [https://www.youtube.com/watch?v=ZFDdW_ClaLo](https://www.youtube.com/watch?v=ZFDdW_ClaLo)
-
-barcamp.am 2014 - vishap oberon [https://www.youtube.com/watch?v=ZiKWZySzKrM](https://www.youtube.com/watch?v=ZiKWZySzKrM)
-
-systems we love armenia, It's Pascal! I know it!: [https://www.youtube.com/watch?v=qN6n5c7h730](https://www.youtube.com/watch?v=qN6n5c7h730)
